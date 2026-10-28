@@ -2,7 +2,7 @@ import java.util.*;
 
 public class inputOutput {
     public static void main(String[] args) {
-        int marks[] = new int[100];
+        int marks[] = new int[10];
 
         Scanner sc = new Scanner(System.in);
         marks[0] = sc.nextInt(); //phy
@@ -22,7 +22,7 @@ public class inputOutput {
         int percentage = (marks[0] + marks[1] + marks[2]) / 3;
         System.out.println("percentage " + percentage + "%");
 
-        System.out.println("length of array is " + marks.length);
+        System.out.println("length of array is = " + marks.length);
 
         sc.close();
     }

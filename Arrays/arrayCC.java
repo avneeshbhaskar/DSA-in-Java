@@ -7,9 +7,9 @@ public class arrayCC {
        int morenumbers[] = {4,5,6};
 
        String fruits[] = {"mango" , "orange" ,  "apple"};
-       System.out.println(marks);
-       System.out.println(numbers);
-       System.out.println(morenumbers);
-       System.out.println(fruits);
+       System.out.println(marks[0]);
+       System.out.println(numbers[1]);
+       System.out.println(morenumbers[2]);
+       System.out.println(fruits[1]);
     }
 }

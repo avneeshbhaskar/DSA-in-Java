@@ -3,7 +3,7 @@ public class largestInArray {
 
     public static int getLargest(int numbers[]){
         int largest = Integer.MIN_VALUE; // -infinity
-        int smallest = Integer.MAX_VALUE;
+        int smallest = Integer.MAX_VALUE; // +infinity
 
         for(int i = 0; i < numbers.length; i++){
             if(largest < numbers[i]){

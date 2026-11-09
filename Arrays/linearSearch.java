@@ -15,9 +15,14 @@ public class linearSearch {
         int index = LinearSearch(numbers, key);
         if(index == -1){
             System.out.println("not found");
-        }else{
+        } else {
             System.out.println("Key is at index : " + index);
         }
     }
-    
 }
+
+
+
+
+
+
